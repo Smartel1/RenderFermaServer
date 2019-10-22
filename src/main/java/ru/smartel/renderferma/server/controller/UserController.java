@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.smartel.renderferma.server.dto.UserRequestDTO;
+import ru.smartel.renderferma.server.dto.RegistrationDTO;
 import ru.smartel.renderferma.server.entity.UserEntity;
 import ru.smartel.renderferma.server.repository.UserRepository;
 
@@ -25,7 +25,7 @@ public class UserController {
      * User registration endpoint
      */
     @PostMapping
-    public void register(@RequestBody @Validated UserRequestDTO userRequestDTO) {
+    public void register(@RequestBody @Validated RegistrationDTO userRequestDTO) {
         UserEntity user = new UserEntity();
         user.setEmail(userRequestDTO.getEmail());
         user.setPasswordHash(

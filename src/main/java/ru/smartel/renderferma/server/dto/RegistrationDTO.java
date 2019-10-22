@@ -2,7 +2,7 @@ package ru.smartel.renderferma.server.dto;
 
 import javax.validation.constraints.NotNull;
 
-public class UserRequestDTO {
+public class RegistrationDTO {
     @NotNull
     private String email;
     @NotNull
