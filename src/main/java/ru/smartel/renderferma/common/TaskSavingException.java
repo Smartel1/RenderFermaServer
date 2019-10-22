@@ -1,4 +1,4 @@
-package ru.smartel.renderferma.server.common;
+package ru.smartel.renderferma.common;
 
 public class TaskSavingException extends Exception {
     public TaskSavingException(String message) {

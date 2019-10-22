@@ -3,9 +3,9 @@ package ru.smartel.renderferma.server.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
-import ru.smartel.renderferma.server.common.Task;
-import ru.smartel.renderferma.server.common.TaskSavingException;
-import ru.smartel.renderferma.server.common.TaskService;
+import ru.smartel.renderferma.common.Task;
+import ru.smartel.renderferma.common.TaskSavingException;
+import ru.smartel.renderferma.common.TaskService;
 import ru.smartel.renderferma.server.security.UserPrincipal;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package ru.smartel.renderferma.server.common;
+package ru.smartel.renderferma.common;
 
 import java.util.List;
 

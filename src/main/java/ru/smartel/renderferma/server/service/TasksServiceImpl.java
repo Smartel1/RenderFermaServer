@@ -1,10 +1,10 @@
 package ru.smartel.renderferma.server.service;
 
 import org.springframework.stereotype.Service;
-import ru.smartel.renderferma.server.common.Task;
-import ru.smartel.renderferma.server.common.TaskSavingException;
-import ru.smartel.renderferma.server.common.TaskService;
-import ru.smartel.renderferma.server.common.TaskStatus;
+import ru.smartel.renderferma.common.Task;
+import ru.smartel.renderferma.common.TaskSavingException;
+import ru.smartel.renderferma.common.TaskService;
+import ru.smartel.renderferma.common.TaskStatus;
 import ru.smartel.renderferma.server.dto.TaskDTO;
 import ru.smartel.renderferma.server.entity.TaskEntity;
 import ru.smartel.renderferma.server.entity.UserEntity;

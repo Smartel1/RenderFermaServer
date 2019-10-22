@@ -1,7 +1,7 @@
 package ru.smartel.renderferma.server.dto;
 
-import ru.smartel.renderferma.server.common.Task;
-import ru.smartel.renderferma.server.common.TaskStatus;
+import ru.smartel.renderferma.common.Task;
+import ru.smartel.renderferma.common.TaskStatus;
 import ru.smartel.renderferma.server.entity.TaskEntity;
 
 public class TaskDTO implements Task {
